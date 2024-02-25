@@ -1,0 +1,196 @@
+/* ------------------- STANDARD STYLE -------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, p {
+    color: white;
+}
+
+/* ------------------------ MAIN ------------------------- */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: black;
+}
+
+/* --------------------- MOVIE INFO ---------------------- */
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin: 2rem 0;
+}
+
+.movie-content {
+    display: flex;
+    gap: 2.5vw;
+    width: 100%;
+}
+
+.movie-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.movie-title {
+    font-size: 32px;
+    border-bottom: 2px solid #fabb33;
+    padding-bottom: .25rem;
+    margin-bottom: 1.5rem;
+    width: 70%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.movie-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 2rem;
+}
+
+.movie-category {
+    border-left: 1px solid #505050;
+    border-right: 1px solid #505050;
+    margin: 0 1rem;
+    padding: 0 1rem;
+}
+
+.valuation-stars {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.valuation-stars p {
+    font-size: 18px;
+}
+
+.valuation-stars img {
+    margin-right: 2px;
+    height: 18px;
+    width: 18px;
+}
+
+.movie-trailer {
+    width: 100%;
+    height: 45vh;
+}
+
+.movie-description {
+    color: white;
+    margin-top: 1rem;
+}
+
+/* --------------------- MOVIE PHOTO ---------------------- */
+
+.movie-photo-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.movie-photo {
+    height: auto;
+    max-height: 70vh;
+    width: auto;
+    object-fit: cover;
+}
+
+/* ------------------ COMMENTS SECTION -------------------- */
+
+.comments-content {
+    width: 80vw;
+    border-top: 3px solid #fabb33;
+    padding: 1rem 0 0 1rem;
+}
+
+.comment-unit {
+    margin-bottom: 1rem;
+}
+
+.comment-title {
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.comment-user {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+
+.comment-profile-photo {
+    height: 100%;
+    margin-right: 1rem;
+    border: 3px solid #fabb33;
+    border-radius: 999px;
+}
+
+.comment-user-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.username {
+    font-size: 20px;
+    color: #fabb33;
+    font-weight: bold;
+}
+
+.comment-content-section {
+    border-bottom: 1px solid #505050;
+}
+
+.comment-subtitle {
+    margin-bottom: 1rem;
+}
+
+.comment-content {
+    margin-bottom: 1.5rem;
+}
+
+/* --------------- WRITE A COMMENT SECTION ----------------- */
+.write-comment-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 80vw;
+    padding: 1rem 0 0 1rem;
+}
+
+.write-comment-title {
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.write-comment-content {
+    height: 10rem;
+    width: 100%;
+    resize: none;
+    font-size: 18px;
+    padding: .5rem .75rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.write-comment-button {
+    background-color: #fabb33;
+
+}
